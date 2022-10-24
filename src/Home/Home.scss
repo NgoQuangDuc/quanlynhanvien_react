@@ -1,0 +1,39 @@
+.demo{margin-bottom: 2rem;
+display: flex;
+flex-direction: row;
+margin-left:6px;
+list-style-type: none;
+background-color:green;
+height:50px;
+align-items: center;
+}
+.demo li{
+    border:1px solid wheat;
+    width:40px;
+    height:40px
+
+}
+.demo .previous{
+width: 100px;
+ a{
+    text-decoration:none;
+}
+}
+.demo .next{
+    width: 100px;
+ a{
+    text-decoration:none;
+    
+}
+}
+.demo li:hover{
+    background-color:red
+}
+.demo li a{
+position: relative;
+left: 15px;
+top: 5px;
+}
+.haha{
+    background-color:black;
+}
